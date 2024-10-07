@@ -11,6 +11,7 @@ module.exports.handler = async (event) => {
       UserEmail,
       UserStatus, // Save the status in the database
     });
+    
 
     // Return the created user details including the status
     return {

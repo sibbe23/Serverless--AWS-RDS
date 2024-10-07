@@ -41,6 +41,3 @@ functions:
       - http:
           path: user
           method: delete
-
-plugins:
-  - serverless-offline
